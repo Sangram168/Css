@@ -1,0 +1,57 @@
+/* Element Selector */
+p{
+    background-color: yellow;
+}
+
+/* ID Selector -  when you select element using id selector */
+#para{
+    background-color: antiquewhite;
+}
+
+/* Class Selector - select element using class */
+.p3{
+    font-size: 30px;
+}
+
+/* Pseudo-classes selector is keyword added to selector that specifies a special state of the selected elements */
+button:hover{
+    background-color: aquamarine;
+}
+
+/* Select Multiple elements for style separating them with commas */
+h1, h2, h3, h4, h5, h6{
+  text-align: center;
+}
+
+/* Universal Selector in CSS is used to select all the elements on the HTML page, such as <p>, <h1>, <img> etc. */
+*{
+    color: blue;
+}
+
+/* Nested selector select element inside the another element */
+div i{
+    font-size: 25px;
+}
+
+/* The [attribute] selector is used to select elements with a specified attribute. */
+
+a[target]{
+ background-color: aqua;
+}
+
+ .hh{
+    font-size: 5px;
+} 
+
+.unit{
+    font-size: 5em;
+}
+
+.div5{
+    /* background-image: linear-gradient(to right, red,blue);
+    background-image: linear-gradient(90deg, red, blue); */
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(111,233,244));
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
