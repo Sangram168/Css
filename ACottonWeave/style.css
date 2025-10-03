@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gilroy';
+    font-family: 'work sans';
 }
 
 html, body{
@@ -14,33 +14,30 @@ html, body{
     height: 100%;
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px 90px;
-    padding-top: 150px;
+    align-items: flex-end;
+    /* justify-content: space-between; */
+    padding: 0px 90px;
+    padding-top: 170px;
+    gap: 60px;
 }
 
 #left{
     height: 100%;
-    width: 48%;
+    width: 45%;
     display: flex;
     flex-direction: column;
-}
-
-#right{
-    height: 100%;
-    width: 48%;
+    padding-bottom: 50px;
 }
 
 #left h1{
-    font-size: 145px;
+    font-size: 8.6vw;
     font-weight: 500;
-    line-height: 150px;
+    line-height: 8.8vw;
     font-family: work sans;
 }
 
 #bottom-left{
-    height: 40%;
+    /* height: 40%; */
     width: 100%;
 }
 
@@ -74,3 +71,82 @@ html, body{
     background-color: brown;
     border-radius: 50%;
 }
+
+#left h2{
+    margin-top: 50px;
+    font-size: 2vw;
+    margin-bottom: 10px;
+}
+
+#left p{
+    font-size: 1.15vw;
+    width: 65%;
+    font-weight: 600;
+    color: #444;
+    line-height: 1.6vw;
+}
+
+#right{
+    height: 90%;
+    width: 33%;
+    position: relative;
+    /* background-color: blue; */
+}
+
+#right-top{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+#right-top h4{
+    font-size: 30px;
+    font-family: work sans;
+}
+
+#right-top h5{
+    font-size: 16px;
+}
+
+#right-top h5 i{
+    color: gold;
+}
+
+#right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#round-shape{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(3, 3, 7);
+    color: #fff;
+    border-radius: 50%;
+    right: -20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 24%;
+}
+
+#round-shape h5{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#rotated{
+    position: absolute;
+    left: -8%;
+    rotate: -90deg;
+    bottom: 3px;
+    transform-origin: 0 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+
