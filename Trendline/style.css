@@ -43,6 +43,10 @@ html, body{
     font-weight: 600;
 }
 
+#nav h5{
+    display: none;
+}
+
 #nav-part2 h4 span{
     color: rgb(71, 71, 71);
     margin-left: 25px;
@@ -101,7 +105,7 @@ html, body{
 }
 
 .elem h1{
-    font-size: 130px;
+    font-size: 7vw;
     font-weight: 400;
 }
 
